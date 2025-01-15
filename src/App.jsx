@@ -53,7 +53,7 @@ function App() {
           <input
             type="text"
             placeholder="Search for word..."
-            className="p-2 rounded-lg bg-opacity-15 bg-black sm:w-full border-2 border-gray-500 focus:outline-none text-white z-40 "
+            className="p-2 rounded-lg bg-opacity-15 bg-black sm:w-full border-2 border-gray-500 focus:outline-none text-white z-40 w-[180px]"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
